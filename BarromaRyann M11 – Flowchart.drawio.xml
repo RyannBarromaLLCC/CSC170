@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ewk-G19HqfNNxuRhoQpL">
+    <mxGraphModel dx="3615" dy="2221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="3000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-6" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Program Start" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Program end" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="2120" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-8" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-7" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Initialize the world" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-10" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-9" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-7" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Initialize actors:&lt;br&gt;- Sky&lt;div&gt;- Trees&lt;br&gt;- Lead Bird&lt;br&gt;- Follower Bird&lt;/div&gt;&lt;div&gt;- Hawk&lt;/div&gt;&lt;div&gt;- Nest&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="120" x="360" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-12" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-9" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Player starts the game" vertex="1">
+          <mxGeometry height="60" width="170" x="335" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-15" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-20" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Did the player press up down controls?" vertex="1">
+          <mxGeometry height="90" width="162.5" x="338.75" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-21" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" x="0.0044" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="590" />
+            </Array>
+            <mxPoint x="430" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Lead bird goes up or down" vertex="1">
+          <mxGeometry height="60" width="120" x="611.25" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-23" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-22" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Follow birds follow the lead bird in a staggered&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-25" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-24" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="The sky and trees move to the left" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-27" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-26" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-31" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-24" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Should a hawk appear?" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-32" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="No">
+          <mxGeometry relative="1" x="0.1111" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="950" />
+            </Array>
+            <mxPoint x="420" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spawn a hawk" vertex="1">
+          <mxGeometry height="60" width="120" x="611.25" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-36" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-35" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Hawk flies towards the birds" vertex="1">
+          <mxGeometry height="60" width="180" x="330" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-38" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-70" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Did a hawk capture a bird?" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-49" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-48" value="No">
+          <mxGeometry relative="1" x="0.1307" as="geometry">
+            <Array as="points">
+              <mxPoint x="810" y="1150" />
+              <mxPoint x="810" y="2150" />
+            </Array>
+            <mxPoint x="671.25" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-53" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-52" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-46" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Did the hawk capture the lead bird?" vertex="1">
+          <mxGeometry height="80" width="162.5" x="590" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-51" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="2150" />
+              <mxPoint x="530" y="2150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-48" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Game over" vertex="1">
+          <mxGeometry height="80" width="180" x="572.5" y="2110" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-59" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-57" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-52" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Did the hawk capture a follower?" vertex="1">
+          <mxGeometry height="80" width="162.5" x="590" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="663" y="1193" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-69" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-68" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Follower gets captured by the hawk" vertex="1">
+          <mxGeometry height="60" width="180" x="581.25" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-60" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="661" y="1311" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-66" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-13" value="No">
+          <mxGeometry relative="1" x="-0.3277" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="1750" />
+              <mxPoint x="160" y="525" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-82" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-79" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-61" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Birds reached the nest?" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="520" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-76" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-68" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Show score to player&lt;div&gt;--score&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="180" x="581.25" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-74" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-73" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;" value="Player wins" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-80" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" value="No">
+          <mxGeometry relative="1" x="0.4667" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="670" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-83" edge="1" parent="1" source="qo0jlV2Rd6ckqXrPzHa7-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="qo0jlV2Rd6ckqXrPzHa7-73" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qo0jlV2Rd6ckqXrPzHa7-79" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="Did the player reach with &amp;gt; 40%" vertex="1">
+          <mxGeometry height="80" width="180" x="330" y="1845" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
